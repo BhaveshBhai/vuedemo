@@ -6,8 +6,8 @@ class CommunityDataService{
     getCommunityById(id){
         return http.get(`/Community/${id}`);
     }
-    UpdateCommunity(id,data) {
-        return http.put(`/Community/${id}`, data);
+    UpdateCommunity(data) {
+        return http.put(`/Community/`, data);
     }
 }
 export default new CommunityDataService();
