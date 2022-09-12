@@ -37,12 +37,12 @@
                     </template>
                     <v-date-picker v-model="editedItem.birthDate" no-title scrollable>
                       <v-spacer></v-spacer>
-                      <!-- <v-btn text color="primary" @click="menu = false">
+                       <v-btn text color="primary" @click="menu = false">
                         Cancel
                       </v-btn>
                       <v-btn text color="primary" @click="$refs.menu.save(editedItem.birthDate)">
                         OK
-                      </v-btn> -->
+                      </v-btn>
                     </v-date-picker>
                   </v-menu>
 
